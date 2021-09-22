@@ -1,5 +1,5 @@
 import pytest
-from demo/second_demo import get_greatest_number
+from demo.second_demo import get_greatest_number
 import pyspark.sql.functions as F
 from pytest_pyspark_conf import spark
 
