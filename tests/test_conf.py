@@ -5,5 +5,5 @@ from pyspark.sql import SparkSession
 def spark():
     return SparkSession.builder \
       .master("local") \
-      .appName("chispa") \
+      .appName("travelers") \
       .getOrCreate()
