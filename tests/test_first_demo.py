@@ -1,5 +1,5 @@
 import pytest
-from first_demo import remove_non_word_characters
+from demo/first_demo import remove_non_word_characters
 import pyspark.sql.functions as F
 from pytest_pyspark_conf import spark
 
