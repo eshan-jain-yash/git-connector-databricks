@@ -7,5 +7,5 @@ def get_greatest_number(spark, num1, num2):
   df1 =  df.withColumn("max", greatest("a", "b")).select("max")
   return df1.collect()[0][0]
 
-a = demo.even_or_not(1)
-print(a)
+#a = even_or_not(1)
+#print(a)
